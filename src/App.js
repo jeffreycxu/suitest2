@@ -1,12 +1,13 @@
 import './App.css';
 import React from 'react';
-import { SignInButton } from 'ethos-connect';
+// import { SignInButton } from 'ethos-connect';
 
 
 function App() {
   return (
     <div className="App">
-      <SignInButton/>
+      <p> Testing</p>
+      {/* <SignInButton/> */}
 
     </div>
   );
