@@ -10,7 +10,7 @@ const ethosConfiguration = {
   preferredWallets: ['Ethos Wallet'],
   network: process.env.NETWORK || process.env.NEXT_PUBLIC_NETWORK
 };
-
+console.log(ethosConfiguration, "test")
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <EthosConnectProvider
